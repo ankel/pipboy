@@ -9,4 +9,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.bouncycastle:bcprov-jdk15on:1.51'
+    compile 'org.jasypt:jasypt:1.9.2'
+    compile 'com.fasterxml.jackson.core:jackson-core:2.4.4'
 }
